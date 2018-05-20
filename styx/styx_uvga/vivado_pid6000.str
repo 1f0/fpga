@@ -1,0 +1,121 @@
+/*
+
+Vivado v2014.3.1 (64-bit)
+SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+Process ID: 6000
+
+Current time: 	6/23/16 4:16:10 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	D:/Xilinx/Vivado/2014.3/tps/win64/jre
+
+User name: 	SystemGroup102
+User directory: E:/VIVA/styxfpga/styx_uvga
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/vivado.ini
+Vivado layouts directory: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/layouts/application
+
+GUI allocated memory:	202 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 469 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cn:P (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+50390kb) [00:00:03]
+// [Engine Memory]: 432 MB (+302025kb) [00:00:03]
+// [Engine Memory]: 446 MB (+13918kb) [00:00:03]
+// [Engine Memory]: 460 MB (+14643kb) [00:00:04]
+// [GUI Memory]: 56 MB (+5774kb) [00:00:05]
+// [Engine Memory]: 467 MB (+7725kb) [00:00:05]
+// [Engine Memory]: 469 MB (+1835kb) [00:00:05]
+// Tcl Message: open_project E:/VIVA/styxfpga/styx_uvga/styx_uvga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2014.3/data/ip'. 
+// [GUI Memory]: 68 MB (+12960kb) [00:00:06]
+// [Engine Memory]: 474 MB (+5775kb) [00:00:06]
+// [GUI Memory]: 69 MB (+659kb) [00:00:06]
+// [GUI Memory]: 70 MB (+659kb) [00:00:06]
+// [GUI Memory]: 70 MB (+692kb) [00:00:06]
+// [GUI Memory]: 71 MB (+659kb) [00:00:06]
+// [GUI Memory]: 71 MB (+659kb) [00:00:06]
+// [GUI Memory]: 72 MB (+692kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 73 MB (+659kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 73 MB (+696kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 474 MB. GUI used memory: 38 MB. Current time: 6/23/16 4:16:11 PM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 475 MB (+225kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 478 MB (+3194kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 479 MB (+1015kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 479 MB (+376kb) [00:00:07]
+// [Engine Memory]: 480 MB (+1232kb) [00:00:07]
+// [Engine Memory]: 481 MB (+1277kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: styx_uvga; location: E:/VIVA/styxfpga/styx_uvga; part: xc7k160tffg676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:05 . Memory (MB): peak = 771.855 ; gain = 135.523 
+dismissDialog("Open Project"); // cn:P (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 74 MB (+216kb) [00:01:59]
+// [GUI Memory]: 74 MB (+123kb) [00:02:04]
+// [GUI Memory]: 74 MB (+783kb) [00:02:09]
+// [GUI Memory]: 75 MB (+123kb) [00:02:14]
+// [GUI Memory]: 76 MB (+1582kb) [00:02:19]
+// [Engine Memory]: 483 MB (+2097kb) [00:02:37]
+// Elapsed time: 150 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+// [Engine Memory]: 486 MB (+3108kb) [00:02:39]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [Engine Memory]: 486 MB (+126kb) [00:02:39]
+// [Engine Memory]: 487 MB (+491kb) [00:02:39]
+// [GUI Memory]: 77 MB (+432kb) [00:02:39]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), sram_top0 - wb_sram (wb_sram.v)]", 5, false); // u:k (H:JPanel, ch:JFrame)
+// [Engine Memory]: 491 MB (+4063kb) [00:02:44]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), sram_top0 - wb_sram (wb_sram.v)]", 5, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 78 MB (+1254kb) [00:02:44]
+// [GUI Memory]: 85 MB (+7429kb) [00:02:44]
+// [Engine Memory]: 491 MB (+512kb) [00:02:50]
+// [Engine Memory]: 492 MB (+622kb) [00:04:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 497 MB. GUI used memory: 41 MB. Current time: 6/23/16 4:23:06 PM
+// [Engine Memory]: 497 MB (+5300kb) [00:07:02]
+// Elapsed time: 1059 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25, true); // w:Y (v:H, ch:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 498 MB (+1085kb) [00:20:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 25, true, false, false, false, false, true); // w:Y (v:H, ch:JFrame) - Double Click - Node
+// Tcl Message: open_hw 
+// [Engine Memory]: 498 MB (+32kb) [00:20:24]
+// [Engine Memory]: 498 MB (+339kb) [00:20:24]
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, ch:JFrame)

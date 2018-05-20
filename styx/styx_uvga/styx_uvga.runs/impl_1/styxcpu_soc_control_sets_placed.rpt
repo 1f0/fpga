@@ -1,0 +1,138 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.3.1 (win64) Build 1034051 Fri Oct  3 17:14:12 MDT 2014
+| Date         : Sun Jul 03 17:18:32 2016
+| Host         : SG102 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file styxcpu_soc_control_sets_placed.rpt
+| Design       : styxcpu_soc
+| Device       : xc7k160t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    85 |
+| Minimum Number of register sites lost to control set restrictions |   175 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             181 |           81 |
+| No           | No                    | Yes                    |             206 |           71 |
+| No           | Yes                   | No                     |             457 |          197 |
+| Yes          | No                    | No                     |             126 |           50 |
+| Yes          | No                    | Yes                    |             420 |          130 |
+| Yes          | Yes                   | No                     |            1131 |          459 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+--------------------------------------------------------------+----------------------------------------+------------------+----------------+
+|         Clock Signal        |                         Enable Signal                        |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++-----------------------------+--------------------------------------------------------------+----------------------------------------+------------------+----------------+
+|  clk_BUFG                   | uart_top0/regs/transmitter/parity_xor1_out                   | rst_IBUF                               |                1 |              1 |
+|  cnt_reg__0[2]              |                                                              |                                        |                1 |              1 |
+|  ctrclk                     |                                                              |                                        |                1 |              1 |
+|                             |                                                              | rst_IBUF                               |                1 |              2 |
+|  styxcputop0/mem_wb0/O27[0] |                                                              | rst_IBUF                               |                1 |              2 |
+|  clk_BUFG                   | uart_top0/regs/receiver/fifo_rx/n_18_bottom[3]_i_1           | rst_IBUF                               |                1 |              4 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O65                                      | rst_IBUF                               |                2 |              4 |
+|  clk_BUFG                   | uart_top0/wb_interface/I20[0]                                | rst_IBUF                               |                1 |              4 |
+|  clk_BUFG                   | styxcputop0/ex_mem0/O81                                      | rst_IBUF                               |                2 |              4 |
+|  clk_BUFG                   | uart_top0/regs/receiver/fifo_rx/n_18_top[3]_i_1              | rst_IBUF                               |                2 |              4 |
+|  clk_BUFG                   | uart_top0/regs/receiver/n_18_FSM_sequential_rstate[3]_i_1    | rst_IBUF                               |                2 |              4 |
+|  clk_BUFG                   | uart_top0/regs/receiver/n_18_rcounter16[3]_i_1               | rst_IBUF                               |                2 |              4 |
+|  clk_BUFG                   | uart_top0/regs/transmitter/fifo_tx/n_18_bottom[3]_i_1__0     | rst_IBUF                               |                1 |              4 |
+|  clk_BUFG                   | uart_top0/regs/transmitter/fifo_tx/n_18_top[3]_i_1__0        | rst_IBUF                               |                1 |              4 |
+|  styxcputop0/id_ex0/I60[0]  |                                                              |                                        |                3 |              5 |
+|  clk_BUFG                   | uart_top0/regs/transmitter/n_18_counter[4]_i_1               | rst_IBUF                               |                3 |              5 |
+|  clk_BUFG                   | uart_top0/regs/receiver/fifo_rx/n_18_count[4]_i_1            | rst_IBUF                               |                3 |              5 |
+|  clk_BUFG                   | uart_top0/wb_interface/I21[0]                                | rst_IBUF                               |                2 |              5 |
+|  clk_BUFG                   | uart_top0/regs/receiver/n_18_rshift[4]_i_1                   | rst_IBUF                               |                2 |              5 |
+|  clk_BUFG                   | uart_top0/regs/transmitter/fifo_tx/n_18_count[4]_i_1__0      | rst_IBUF                               |                1 |              5 |
+|  clk100_IBUF_BUFG           | bd_disp_top/P2S_SEG/n_18_data_count[5]_i_1                   | rst_IBUF                               |                2 |              6 |
+|  clk_BUFG                   | styxcputop0/div0/n_18_cnt[5]_i_1                             |                                        |                2 |              6 |
+|  clk_BUFG                   | uart_top0/wb_interface/I22[0]                                | rst_IBUF                               |                4 |              8 |
+|  clk_BUFG                   | uart_top0/wb_interface/E[0]                                  | rst_IBUF                               |                3 |              8 |
+|  clk_BUFG                   | uart_top0/wb_interface/O4                                    | rst_IBUF                               |                1 |              8 |
+|  clk_BUFG                   | uart_top0/wb_interface/O12                                   | rst_IBUF                               |                2 |              8 |
+|  clk_BUFG                   | uart_top0/regs/n_18_block_cnt[7]_i_1                         | rst_IBUF                               |                3 |              8 |
+|  clk_BUFG                   | uart_top0/regs/receiver/n_18_counter_b[7]_i_1                | rst_IBUF                               |                3 |              8 |
+|  clk100_IBUF_BUFG           | bd_disp_top/P2S_SEG/n_18_buff[62]_i_1                        | bd_disp_top/P2S_SEG/n_18_buff[64]_i_1  |                8 |              9 |
+|  clk_BUFG                   | uart_top0/regs/transmitter/n_18_bit_counter[2]_i_1           | rst_IBUF                               |                4 |              9 |
+|  clk_BUFG                   | uart_top0/regs/receiver/fifo_rx/E[0]                         | rst_IBUF                               |                4 |             10 |
+|  clk_BUFG                   | uart_top0/regs/receiver/n_18_rf_data_in[10]_i_1              | rst_IBUF                               |                6 |             11 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O24[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O29[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | uart_top0/regs/receiver/fifo_rx/rfifo/rf_push_pulse          |                                        |                2 |             16 |
+|  clk_BUFG                   | uart_top0/regs/n_18_tf_push_reg                              |                                        |                2 |             16 |
+|  clk_BUFG                   |                                                              | styxcputop0/dwishbone_bus_if/SR[0]     |               16 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O10[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O13[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O11[0]                          | rst_IBUF                               |                3 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O12[0]                          | rst_IBUF                               |                3 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O14[0]                          | rst_IBUF                               |                3 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O15[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O16[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O17[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O18[0]                          | rst_IBUF                               |                5 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O19[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O20[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O21[0]                          | rst_IBUF                               |                6 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O22[0]                          | rst_IBUF                               |                4 |             16 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/O23[0]                          | rst_IBUF                               |                3 |             16 |
+|  clk100_IBUF_BUFG           |                                                              | rst_IBUF                               |               10 |             29 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O64[0]                                   | rst_IBUF                               |               13 |             31 |
+|  clk_BUFG                   | styxcputop0/div0/n_18_dividend[31]_i_2                       | styxcputop0/div0/n_18_dividend[31]_i_1 |               10 |             31 |
+|  clk_BUFG                   | styxcputop0/dwishbone_bus_if/n_18_rd_buf[31]_i_1__0          | rst_IBUF                               |               11 |             32 |
+|  n_6_4188_BUFG              |                                                              | rst_IBUF                               |               14 |             32 |
+|  n_4_4217_BUFG              |                                                              | rst_IBUF                               |               13 |             32 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/I48[0]                                   | rst_IBUF                               |               17 |             32 |
+|  n_16_1903_BUFG             |                                                              | rst_IBUF                               |               15 |             32 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O6[0]                                    | styxcputop0/p_0_in                     |               15 |             32 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O66[0]                                   | rst_IBUF                               |               13 |             32 |
+|  n_14_2899_BUFG             |                                                              | rst_IBUF                               |               15 |             32 |
+|  n_12_5232_BUFG             |                                                              | rst_IBUF                               |               12 |             32 |
+|  n_10_2727_BUFG             |                                                              | rst_IBUF                               |               14 |             32 |
+|  clk_BUFG                   | styxcputop0/dwishbone_bus_if/O29[0]                          |                                        |                9 |             32 |
+|  clk_BUFG                   | styxcputop0/div0/n_18_dividend[64]_i_2                       | styxcputop0/div0/n_18_dividend[64]_i_1 |               10 |             32 |
+|  clk_BUFG                   | styxcputop0/div0/n_18_divisor[31]_i_1                        |                                        |               13 |             32 |
+|  clk_BUFG                   | uart_top0/wb_interface/re_o                                  | rst_IBUF                               |               15 |             32 |
+|  n_8_2239_BUFG              |                                                              | rst_IBUF                               |               12 |             32 |
+|  clk100_IBUF_BUFG           |                                                              |                                        |               10 |             35 |
+|  clk100_IBUF_BUFG           | bd_disp_top/P2S_SEG/n_18_buff[62]_i_1                        |                                        |               26 |             56 |
+|  clk_BUFG                   | styxcputop0/if_id0/E[0]                                      | styxcputop0/mem_wb0/O71[0]             |               27 |             64 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O1[0]                                    | rst_IBUF                               |               36 |             64 |
+|  n_2_892_BUFG               |                                                              |                                        |               37 |             64 |
+|  clk_BUFG                   | styxcputop0/div0/n_18_result_o[63]_i_1                       | rst_IBUF                               |               18 |             65 |
+|  clk_BUFG                   | styxcputop0/iwishbone_bus_if/n_18_wishbone_addr_o[31]_i_1__0 | rst_IBUF                               |               21 |             66 |
+|  clk_BUFG                   |                                                              | styxcputop0/mem_wb0/SR[0]              |               20 |             66 |
+|  n_0_1092_BUFG              |                                                              | rst_IBUF                               |               36 |             66 |
+|  clk_BUFG                   | styxcputop0/dwishbone_bus_if/n_18_wishbone_addr_o[31]_i_1    | rst_IBUF                               |               15 |             68 |
+|  clk_BUFG                   |                                                              |                                        |               29 |             75 |
+|  clk_BUFG                   | styxcputop0/mem_wb0/O5                                       |                                        |               12 |             96 |
+|  clk_BUFG                   | styxcputop0/dwishbone_bus_if/E[0]                            | styxcputop0/dwishbone_bus_if/O8        |               55 |            143 |
+|  clk_BUFG                   | styxcputop0/if_id0/E[0]                                      | styxcputop0/mem_wb0/O70[0]             |               65 |            165 |
+|  clk_BUFG                   | styxcputop0/ex_mem0/p_0_in                                   | styxcputop0/ex_mem0/n_18_mem_wd[4]_i_1 |              119 |            251 |
+|  clk_BUFG                   |                                                              | rst_IBUF                               |               89 |            258 |
++-----------------------------+--------------------------------------------------------------+----------------------------------------+------------------+----------------+
+
+

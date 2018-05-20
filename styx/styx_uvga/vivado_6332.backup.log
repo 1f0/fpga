@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Sun Jul 03 16:51:55 2016
+# Process ID: 7004
+# Log file: E:/VIVA/styxfpga/styx_uvga/vivado.log
+# Journal file: E:/VIVA/styxfpga/styx_uvga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VIVA/styxfpga/styx_uvga/styx_uvga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2014.3/data/ip'.
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1
+[Sun Jul 03 17:15:20 2016] Launched synth_1...
+Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/synth_1/runme.log
+[Sun Jul 03 17:15:20 2016] Launched impl_1...
+Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Sun Jul 03 17:16:30 2016] Launched synth_1...
+Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/synth_1/runme.log
+[Sun Jul 03 17:16:30 2016] Launched impl_1...
+Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Sun Jul 03 17:19:39 2016] Launched impl_1...
+Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/impl_1/runme.log
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 03 17:23:58 2016...

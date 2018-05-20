@@ -1,0 +1,247 @@
+/*
+
+Vivado v2014.3.1 (64-bit)
+SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+Process ID: 3840
+
+Current time: 	6/29/16 7:19:37 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	D:/Xilinx/Vivado/2014.3/tps/win64/jre
+
+User name: 	SystemGroup102
+User directory: E:/VIVA/styxfpga/styx_uvga
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/vivado.ini
+Vivado layouts directory: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/layouts/application
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 495 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cn:P (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/VIVA/styxfpga/styx_uvga/styx_uvga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 30 MB (+29404kb) [00:00:08]
+// [Engine Memory]: 384 MB (+250726kb) [00:00:08]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+18085kb) [00:00:10]
+// [Engine Memory]: 400 MB (+17670kb) [00:00:10]
+// [GUI Memory]: 51 MB (+3302kb) [00:00:10]
+// [Engine Memory]: 421 MB (+21782kb) [00:00:10]
+// [GUI Memory]: 52 MB (+930kb) [00:00:11]
+// [Engine Memory]: 445 MB (+24956kb) [00:00:11]
+// [Engine Memory]: 495 MB (+52822kb) [00:00:12]
+// [GUI Memory]: 58 MB (+6383kb) [00:00:13]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2014.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 495 MB. GUI used memory: 37 MB. Current time: 6/29/16 7:19:37 PM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 58 MB (+483kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 59 MB (+684kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 60 MB (+732kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 60 MB (+686kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 61 MB (+684kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 62 MB (+1415kb) [00:00:14]
+// [GUI Memory]: 63 MB (+684kb) [00:00:14]
+// [GUI Memory]: 64 MB (+684kb) [00:00:14]
+// [GUI Memory]: 64 MB (+730kb) [00:00:15]
+// [GUI Memory]: 65 MB (+684kb) [00:00:15]
+// [GUI Memory]: 66 MB (+685kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 66 MB (+732kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 67 MB (+684kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 68 MB (+684kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 68 MB (+684kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 70 MB (+1430kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 70 MB (+421kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: styx_uvga; location: E:/VIVA/styxfpga/styx_uvga; part: xc7k160tffg676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 799.500 ; gain = 194.984 
+dismissDialog("Open Project"); // cn:P (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 496 MB (+839kb) [00:00:22]
+// [GUI Memory]: 70 MB (+107kb) [00:01:17]
+// [GUI Memory]: 71 MB (+714kb) [00:01:22]
+// [GUI Memory]: 72 MB (+865kb) [00:01:26]
+// [GUI Memory]: 73 MB (+1402kb) [00:01:30]
+// Elapsed time: 79 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 73 MB (+526kb) [00:01:35]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectCodeEditor("styxcpu_soc.v", 440, 94); // aY:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 79 MB (+5920kb) [00:01:37]
+// [Engine Memory]: 500 MB (+3686kb) [00:01:46]
+// Elapsed time: 50 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst"); // l:an (c:JComboBox, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), wb_conmax_top0 - wb_conmax_top (wb_conmax_top.v)]", 8, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), wb_conmax_top0 - wb_conmax_top (wb_conmax_top.v), m7 - wb_conmax_master_if (wb_conmax_master_if.v)]", 16, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 81 MB (+1592kb) [00:02:30]
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst_i"); // l:an (c:JComboBox, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), wb_conmax_top0 - wb_conmax_top (wb_conmax_top.v), m0 - wb_conmax_master_if (wb_conmax_master_if.v)]", 9, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), wb_conmax_top0 - wb_conmax_top (wb_conmax_top.v), m0 - wb_conmax_master_if (wb_conmax_master_if.v)]", 9, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 84 MB (+3182kb) [00:02:41]
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst_i"); // l:an (c:JComboBox, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), wb_conmax_top0 - wb_conmax_top (wb_conmax_top.v)]", 8); // u:k (H:JPanel, ch:JFrame)
+// [Engine Memory]: 500 MB (+790kb) [00:03:05]
+// [Engine Memory]: 504 MB (+3477kb) [00:03:05]
+// [Engine Memory]: 505 MB (+1597kb) [00:03:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), uart_top0 - uart_top (uart_top.v)]", 6, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), uart_top0 - uart_top (uart_top.v)]", 6, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+selectCodeEditor("uart_top.v", 57, 219); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("uart_top.v", 57, 219, false, false, false, false, true); // aY:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "uart_top.v", 'c'); // aY:J (JPanel:JComponent, ch:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "wb_rst_i"); // l:an (c:JComboBox, ch:JFrame)
+// [GUI Memory]: 85 MB (+1145kb) [00:03:23]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), uart_top0 - uart_top (uart_top.v), wb_interface - uart_wb (uart_wb.v)]", 7, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), uart_top0 - uart_top (uart_top.v), wb_interface - uart_wb (uart_wb.v)]", 7, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [Engine Memory]: 505 MB (+155kb) [00:03:24]
+// [Engine Memory]: 512 MB (+7290kb) [00:03:29]
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "wb_rst_i"); // l:an (c:JComboBox, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), uart_top0 - uart_top (uart_top.v)]", 6); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), ROM - rom (rom.v)]", 7, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), ROM - rom (rom.v)]", 7, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 85 MB (+529kb) [00:03:39]
+// [Engine Memory]: 513 MB (+778kb) [00:03:43]
+// Elapsed time: 232 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// Elapsed time: 22 seconds
+selectCodeEditor("styxcpu_soc.v", 531, 268); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("styxcpu_soc.v", 63, 445); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 34 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3); // u:k (H:JPanel, ch:JFrame)
+// [Engine Memory]: 515 MB (+2420kb) [00:08:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), sram_top0 - wb_sram (wb_sram.v)]", 5, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v), sram_top0 - wb_sram (wb_sram.v)]", 5, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 43 MB. Current time: 6/29/16 7:28:19 PM
+selectCodeEditor("wb_sram.v", 105, 44); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("wb_sram.v", 105, 44, false, false, false, false, true); // aY:J (JPanel:JComponent, ch:JFrame) - Double Click
+typeControlKey((HResource) null, "wb_sram.v", 'c'); // aY:J (JPanel:JComponent, ch:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst"); // l:an (c:JComboBox, ch:JFrame)
+// [Engine Memory]: 517 MB (+2064kb) [00:09:02]
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, styxcpu_soc (styxcpu_soc.v)]", 3, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectCodeEditor("styxcpu_soc.v", 360, 212); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sram"); // l:an (c:JComboBox, ch:JFrame)
+selectCodeEditor("styxcpu_soc.v", 100, 296); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("styxcpu_soc.v", 471, 97); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "run_implementation"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cn:P (ch:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cn:P (ch:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Jun 29 19:29:27 2016] Launched synth_1... Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/synth_1/runme.log [Wed Jun 29 19:29:27 2016] Launched impl_1... Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cn:P (ch:JFrame)
+// [GUI Memory]: 85 MB (+138kb) [00:11:20]
+// [GUI Memory]: 87 MB (+1773kb) [00:11:25]
+// [GUI Memory]: 89 MB (+1673kb) [00:11:30]
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 518 MB (+442kb) [00:11:39]
+// Elapsed time: 101 seconds
+selectCodeEditor("styxcpu_soc.v", 490, 246); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [Engine Memory]: 519 MB (+1310kb) [00:11:50]
+// [Engine Memory]: 519 MB (+249kb) [00:11:52]
+// [GUI Memory]: 90 MB (+931kb) [00:11:57]
+// [GUI Memory]: 91 MB (+1796kb) [00:12:02]
+// [Engine Memory]: 521 MB (+1957kb) [00:12:22]
+// [Engine Memory]: 525 MB (+4067kb) [00:12:27]
+// TclEventType: RUN_COMPLETED
+// Q:ao (ch:JFrame): Implementation Completed: addNotify
+// Elapsed time: 111 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ao)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ao)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ao (ch:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Jun 29 19:33:01 2016] Launched impl_1... Run output will be captured here: E:/VIVA/styxfpga/styx_uvga/styx_uvga.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Q:ao (ch:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 60 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, Q:ao)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ao)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// [Engine Memory]: 525 MB (+8kb) [00:14:40]
+dismissDialog("Bitstream Generation Completed"); // Q:ao (ch:JFrame)

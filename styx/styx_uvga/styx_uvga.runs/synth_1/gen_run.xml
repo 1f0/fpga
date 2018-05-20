@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k160tffg676-1" LaunchTime="1467537390">
+  <File Type="RDS-DCP" Name="styxcpu_soc.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="styxcpu_soc_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="styxcpu_soc_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="styxcpu_soc.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="styxcpu_soc.vds"/>
+  <File Type="RDS-UTIL" Name="styxcpu_soc_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="styxcpu_soc_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="styxcpu_soc_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="styxcpu_soc.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_defines.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_defines.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_pri_dec.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_pri_dec.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/raminfr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/raminfr.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_pri_enc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_pri_enc.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_defines.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_defines.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_tfifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_tfifo.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_arb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_arb.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_rfifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_rfifo.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_msel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_msel.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/timescale.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/timescale.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_sync_flops.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_sync_flops.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_receiver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_receiver.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_transmitter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_transmitter.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/defines.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/defines.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wishbone_bus_if.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wishbone_bus_if.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/id_ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/id_ex.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/ex_mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/ex_mem.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/ex.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_wb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_wb.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/if_id.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/if_id.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/function.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/function.vh"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/parallel2serial.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/parallel2serial.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/hilo_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/hilo_reg.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/div.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/LLbit_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/LLbit_reg.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_debug_if.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_debug_if.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/pc_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/pc_reg.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_regs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_regs.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/mem_wb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/mem_wb.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/mem.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_slave_if.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_slave_if.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/cp0_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/cp0_reg.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/regfile.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_master_if.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_master_if.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_rf.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_rf.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/id.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/id.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_sram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_sram.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/rom.v"/>
+        <Attr Name="ImportTime" Val="1466660907"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/styxcpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/styxcpu.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/wb_conmax_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/wb_conmax_top.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/board_disp_sword.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/board_disp_sword.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/uart_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/uart_top.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/styx/styxcpu_soc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/styxcpu_soc.v"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="styxcpu_soc"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/styx/sword.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../styx/sword.xdc"/>
+        <Attr Name="ImportTime" Val="1466660478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

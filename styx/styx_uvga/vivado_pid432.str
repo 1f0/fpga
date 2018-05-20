@@ -1,0 +1,373 @@
+/*
+
+Vivado v2014.3.1 (64-bit)
+SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+Process ID: 432
+
+Current time: 	6/29/16 4:42:33 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	D:/Xilinx/Vivado/2014.3/tps/win64/jre
+
+User name: 	SystemGroup102
+User directory: E:/VIVA/styxfpga/styx_uvga
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/vivado.ini
+Vivado layouts directory: C:/Users/SystemGroup102/AppData/Roaming/Xilinx/Vivado/2014.3/layouts/application
+
+GUI allocated memory:	164 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 403 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cn:P (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 49 MB (+49048kb) [00:00:09]
+// [Engine Memory]: 372 MB (+238443kb) [00:00:09]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project E:/VIVA/styxfpga/styx_uvga/styx_uvga.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/VIVA/styxfpga/styx_uvga/styx_uvga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 406 MB. GUI used memory: 27 MB. Current time: 6/29/16 4:42:35 PM
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 410 MB (+39542kb) [00:00:13]
+// [Engine Memory]: 446 MB (+37994kb) [00:00:14]
+// [Engine Memory]: 461 MB (+15654kb) [00:00:15]
+// [GUI Memory]: 52 MB (+2502kb) [00:00:16]
+// [Engine Memory]: 467 MB (+6561kb) [00:00:16]
+// [GUI Memory]: 60 MB (+8629kb) [00:00:16]
+// [Engine Memory]: 468 MB (+536kb) [00:00:16]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2014.3/data/ip'. 
+// [Engine Memory]: 482 MB (+15409kb) [00:00:18]
+// [GUI Memory]: 60 MB (+671kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 61 MB (+888kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 62 MB (+753kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 63 MB (+749kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 63 MB (+727kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 64 MB (+749kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 65 MB (+725kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 65 MB (+753kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 66 MB (+725kb) [00:00:19]
+// [GUI Memory]: 67 MB (+751kb) [00:00:19]
+// [GUI Memory]: 68 MB (+749kb) [00:00:19]
+// [GUI Memory]: 68 MB (+725kb) [00:00:19]
+// [GUI Memory]: 69 MB (+727kb) [00:00:19]
+// [GUI Memory]: 70 MB (+749kb) [00:00:19]
+// [GUI Memory]: 70 MB (+2kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 70 MB (+751kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 71 MB (+749kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 72 MB (+727kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 73 MB (+749kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 483 MB (+802kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: styx_uvga; location: E:/VIVA/styxfpga/styx_uvga; part: xc7k160tffg676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 768.371 ; gain = 154.035 
+// [Engine Memory]: 484 MB (+1249kb) [00:00:20]
+dismissDialog("Open Project"); // cn:P (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 492 MB (+7757kb) [00:00:21]
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 74 MB (+1089kb) [00:00:21]
+// [Engine Memory]: 492 MB (+794kb) [00:00:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25, true); // w:Y (v:H, ch:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 82 MB (+8938kb) [00:00:24]
+// Tcl Message: open_hw 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 26, false); // w:Y (v:H, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// [Engine Memory]: 493 MB (+823kb) [00:00:27]
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Xilinx/00000000000000,PARAM.FREQUENCY:6000000"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// cn:P (ch:JFrame):  Open Hardware Target : addNotify
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2014.3   **** Build date : Oct 30 2014-16:54:42     ** Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.  INFO: hw_server application started INFO: Use Ctrl-C to exit hw_server application   ****** Xilinx hw_server v2014.3   **** Build date : Oct 30 2014-16:54:42     ** Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.  INFO: hw_server application started INFO: Use Ctrl-C to exit hw_server application   
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Xilinx/00000000000000] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 6000000 [get_hw_targets */xilinx_tcf/Xilinx/00000000000000] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost/xilinx_tcf/Xilinx/00000000000000 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:\VIVA\styxfpga\styx\styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 497 MB (+3923kb) [00:00:29]
+dismissDialog("Open Hardware Target"); // cn:P (ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// [Engine Memory]: 498 MB (+1728kb) [00:00:31]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 501 MB. GUI used memory: 40 MB. Current time: 6/29/16 4:42:55 PM
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// [Engine Memory]: 501 MB (+2224kb) [00:00:35]
+// [Engine Memory]: 506 MB (+5455kb) [00:00:45]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 16 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// [Engine Memory]: 512 MB (+6459kb) [00:00:51]
+// Elapsed time: 176 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [GUI Memory]: 83 MB (+785kb) [00:04:01]
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// [GUI Memory]: 85 MB (+2435kb) [00:14:18]
+// Elapsed time: 617 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// [GUI Memory]: 86 MB (+916kb) [00:14:19]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// Elapsed time: 75 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+applyEnter(PAResourceAtoD.AssignProgramFileDialog_SPECIFY_BITSTREAM_FILE, "E:/VIVA/styxfpga/styx/styxcpu_soc.bit"); // an:JTextField (aR:JPanel, aE:a)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// [GUI Memory]: 87 MB (+1020kb) [00:16:12]
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// Elapsed time: 92 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// Elapsed time: 389 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// Elapsed time: 125 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 774.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'q' command handler elapsed time: 15 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // cn:P (ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 41 MB. Current time: 6/29/16 5:12:55 PM
+// Elapsed time: 192 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7k160t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aE:a (ch:JFrame): Program Device: addNotify
+applyEnter(PAResourceAtoD.AssignProgramFileDialog_SPECIFY_BITSTREAM_FILE, "E:/VIVA/styxfpga/styx/styxcpu_soc.bit"); // an:JTextField (aR:JPanel, aE:a)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aE:a)
+// cn:P (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aE:a (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/VIVA/styxfpga/styx/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVA/styxfpga/styx/styxcpu_soc.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// [Engine Memory]: 512 MB (+225kb) [00:30:49]
+// Elapsed time: 114 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cn:P)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
