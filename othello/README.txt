@@ -1,0 +1,1 @@
+工程代码在gem文件夹中，code文件夹中问Verilog代码,coe文件夹中为用到的coe，test文件夹为测试代码。asm文件夹为汇编代码.s文件和机器语言的bin文件。本工程下载到开发板需要先将switch[0]（最右边的那个）拨为低电平，然后用digilent adept将写入Cellular RAM中，然后下载bit到Nexys3开发板,然后将switch[0]拨到高电平，则程序启动。
